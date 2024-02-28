@@ -3,6 +3,10 @@
 		{
 			"date": "July",
 			"text": "News 1"
+		},
+		{
+			"date": "june",
+			"text": "news 2"
 		}
 	]
 }
