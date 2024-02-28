@@ -38,6 +38,19 @@
             </div>
         </div>
     </div>
+    
+    <hr class="mt-50 mb-50 my-50">
+    <h2 class="h3 text-center mt-80 pb-30 mb-60" style="color: #a32121">What I've been up to</h2>
+    <div mv-app="news" class="mv-autoedit" mv-storage="https://github.com/emeliahughes/research-website/src/html/data">
+        <ul mv-list>
+            {% macro card_blog_column(href="[href]", image="[image]", title="[title]", date="[date]", text="[text]" delay="25") %}
+            <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-delay="{{ delay }}">
+                {{ card_blog_global(href="[href]", image="[image]", title="[title]", date="[date]", text="[text]") }}
+            </div>
+        {% endmacro %}
+
+        </ul>
+    </div>
 
     <div class="pb-160 isotope text-center row">
         <div class="col-8">
@@ -79,23 +92,7 @@
 
 
         <div class="col-3">
-            <hr class="mt-50 mb-50 my-50">
-            <h2 class="h3 text-center mt-80 pb-30 mb-60" style="color: #a32121">What I've been up to</h2>
-            <div mv-app="news" class="mv-autoedit" mv-storage="https://github.com/emeliahughes/research-website/src/html/data">
-                <ul mv-list>
-                    <div class="card card-blog card-horizontal">
-                        <a href="[href]" class="card-img">
-                            <img src="[image]" alt="">
-                        </a>
-                        <div class="card-body">
-                            <a href="[href]" class="card-title title_size" property="title"></a>
-                            <div class="card-date" property="date"></div>
-                            <p class="card-text" property="text"></p>
-                            <a href="[href]" class="btn btn-clean" property="button" property="button_icon"></a>
-                        </div>
-                    </div>
-                </ul>
-            </div>
+
             <div class="row gh-1 gv-1 mb-n8">
                 {% macro card_blog_column(name="", filter="", delay="") %}
                     <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-delay="{{ delay }}">
