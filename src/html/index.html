@@ -83,17 +83,19 @@
         <div class="col-3">
             <hr class="mt-50 mb-50 my-50">
             <h2 class="h3 text-center mt-80 pb-30 mb-60" style="color: #a32121">What I've been up to</h2>
-            <div mv-app="news" class="mv-autoedit" mv-storage="https://github.com/emeliahughes/research-website/src/html/data">
+            <div mv-app="news2" class="mv-autoedit" mv-storage="https://github.com/emeliahughes/research-website/src/html/data">
                 <ul mv-list>
-                    <a class="card card-blog card-vertical card-sm" href="[href]">
-                        <span class="card-img">
-                            <img src="[image]" alt="">
-                        </span>
-                        <span class="card-body">
-                            <span class="card-title" property="title"></span>
-                            <span class="card-date" property="date"></span>
-                        </span>
-                    </a>
+                    <li property="news-item" mv-list-item>
+                        <a class="card card-blog card-vertical card-sm" href="[href]">
+                            <span class="card-img">
+                                <img src="[image]" alt="">
+                            </span>
+                            <div class="card-body">
+                                <span class="card-title" property="title"></span>
+                                <span class="card-date" property="date"></span>
+                            </div>
+                        </a>
+                    </li>
         
                 </ul>
             </div>
