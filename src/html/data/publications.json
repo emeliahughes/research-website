@@ -1,6 +1,13 @@
 {
 	"paper": [
 		{
+			"author": [
+				{}
+			],
+			"short_abstract": "1-2 sentence summary",
+			"links": {}
+		},
+		{
 			"image": "https://cdn.jsdelivr.net/gh/emeliahughes/research-website@ad7560fe6794e59dd4c9666848d1902de5713359/src/html/data/images/NDFS%20headshot%20copy.jpeg",
 			"title": "Viblio",
 			"id": "viblio",
