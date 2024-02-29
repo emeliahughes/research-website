@@ -9,6 +9,7 @@
 
 {% block content %}
 <div class="container">
+    <!-- Intro top bar -->
     <div class="pt-60 pb-130 mt-30">
         <div class="row gh-1 gv-5 align-items-center justify-content-center text-center text-lg-start">
             <div class="col-auto order-1 order-lg-3 show-on-scroll" data-show-delay="200" data-show-duration="600">
@@ -40,10 +41,104 @@
     </div>
     
 
-
+    <!-- main body -->
     <div class="pb-160 isotope text-center row">
+        <hr class="mt-50 mb-50 my-50">
+        <!-- Left Column -->
         <div class="col-8">
-            <hr class="mt-50 mb-50 mr-50">
+            <!-- Publications -->
+            <h2 class="h3 text-center mt-80 pb-30 mb-10" style="color: #a32121">Publications</h2>
+
+            <div mv-app="publications" mv-source="https://github.com/emeliahughes/research-website/src/html/data" mv-upload-url="https://github.com/emeliahughes/research-website/src/images/publications">
+                <article property="paper" mv-multiple mv-if="$index < 10">
+                    <div class="row">
+
+                        <article class="row" property="paper" mv-multiple mv-order="desc">
+              
+                          <div class="col-xs-8 col-sm-2 col-md-2 col-lg-2">
+                            <img class="alignleft img-responsive center-block" property="image" src="null" alt="img alt" style="border: 1px #737373 solid; margin-top: 6px; max-width:100%">
+                          </div>
+              
+              
+                          <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 pubbody">
+              
+                            <B>
+                              <a href="pub_details.html?id=[id]">
+                                <span class="mini-header2" property="title">Paper Title</span>
+                              </a>
+                              </B>
+                            <BR>
+              
+                            <p class="hide-on-read">
+                              URL id: /publications/<span property="id" mv-default="[idify(title)]"></span>
+                            </p>
+              
+                            <span property="author" mv-multiple>
+                                <meta property="authorData" mv-value="get(people.member, 'id=' & author_name)" />
+                                <img src="[authorData.image]" alt="" mv-if="authorData != ''">
+                                <span property="author_name" mv-edit-list="memberList">Author Name</span></span>
+                            <BR>
+              
+                              <span class="hide-on-read" property="conference_full_name">Full Conference Name</span>
+              
+                              <a href="null" property="conference url">
+                                <span property="conference">Conference</span>
+                                <span property="year">Year</span>
+                              </a>
+              
+                              <span class="btn btn-xs btn-warning [if(!award, 'hide-on-read')]" style="padding-top:2px;"><img src="img/trophy-24.png" style="margin-bottom: 0px;width: 22px; height:22px;"> <span property="award">Award</span></span>
+              
+              
+              
+                              <BR>
+                              <div property="short_abstract" class="tinymce" mv-default="1-2 sentence summary">1-2 sentence summary</div>
+              
+                              <div class="hide-on-read" property="abstract" class="tinymce">Abstract</div>
+              
+                              <div class="hide-on-read"  property="bibtex" class="tinymce">Bibtex</div>
+              
+              
+                            <span property="links">
+                              <a href="null" property="pdf_url" class="button">
+                                <img src="img/pdf.png"><span>PDF</span>
+                              </a>
+              
+                              <a href="null" property="website_url" class="button">
+                                <img src="img/earth4.png"><span> Website</span>
+                              </a>
+              
+                              <a href="null" property="code_url" class="button">
+                                <img src="img/github5.png"><span> Code</span>
+                              </a>
+              
+                              <a href="null" property="data_url" class="button">
+                                <img src="img/data.png"><span> Data</span>
+                              </a>
+              
+                              <a href="null" property="slides_url" class="button">
+                                <img src="img/slides.png"><span>Slides</span>
+                              </a>
+              
+                              <a href="null" property="video_url" class="button">
+                                <img src="img/youtube.jpg"><span> Video</span>
+                              </a>
+              
+                              <a href="null" property="talk_url" class="button">
+                                <img src="img/youtube.jpg"><span> Talk</span>
+                              </a>
+                              <BR><BR>
+                            </span>
+                          </article>
+                        </div>
+                  </div>
+                  </div>
+                  </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- Projects -->
             <h2 class="h3 text-center mt-80 pb-30 mb-10" style="color: #a32121">Selected Work</h2>
     
             <div class="pt-30">
@@ -76,40 +171,25 @@
                 <a href="projects.html" class="btn btn-circle btn-light btn-lg mt-100">more</a>
             </div>
         </div>
-        
-        <div class="col-1"></div>
 
-
-        <div class="col-3">
-            <hr class="mt-50 mb-50 my-50">
-            <h2 class="h3 text-center mt-80 pb-30 mb-60" style="color: #a32121">What I've been up to</h2>
-            <div mv-app="news2" class="mv-autoedit" mv-storage="https://github.com/emeliahughes/research-website/src/html/data">
+        <!-- right column -->
+        <div class="col-4">
+            <!-- news -->
+            <h2 class="h3 text-center mt-80 pb-30 mb-10" style="color: #a32121">News</h2>
+            <div mv-app="news" mv-bar="none" mv-storage="https://github.com/emeliahughes/research-website/src/html/data">
                 <ul mv-list>
-                    <li property="news-item" mv-list-item>
-                        <a class="card card-blog card-vertical card-sm" href="[href]">
-                            <span class="card-img">
-                                <img src="[image]" alt="">
-                            </span>
-                            <div class="card-body">
-                                <span class="card-title" property="title"></span>
-                                <span class="card-date" property="date"></span>
+                    <span property="news-item" mv-list-item>
+                        <div class="card">
+                            <div class="card-body p-20 text-start d-flex flex-column justify-content-center">
+                                <h5><span class="card-date inline text-em" property="date"></span>: 
+                                <span class="card-title inline" property="title"></span></h5>
+                                <p class="mb-0"><span class="card-text m-0" property="text"></span>
+                                <span class="btn p-10 text-center"  href="[href]">&rightarrow;</span></p>
                             </div>
-                        </a>
-                    </li>
+                        </div>
+                    </span>
         
                 </ul>
-            </div>
-            <div class="row gh-1 gv-1 mb-n8">
-                {% macro card_blog_column(name="", filter="", delay="") %}
-                    <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-delay="{{ delay }}">
-                        {{ card_blog_global(name) }}
-                    </div>
-                {% endmacro %}
-                {{ card_blog_column('urs-22', 'viblio', '25') }}
-                {{ card_blog_column('icwsm', 'viblio', '50') }}
-                {{ card_blog_column('urs-21', 'viblio', '75') }}
-                {{ card_blog_column('mozfest', 'viblio', '100') }}
-                {{ card_blog_column('misinfocon', 'viblio', '125') }}
             </div>
         </div>
     </div>
