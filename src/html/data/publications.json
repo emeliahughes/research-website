@@ -1,9 +1,14 @@
 {
 	"paper": [
 		{
+			"title": "Viblio",
+			"id": "viblio",
 			"author": [
-				{}
+				{
+					"author_name": "Emelia"
+				}
 			],
+			"conference_full_name": "CHI",
 			"short_abstract": "1-2 sentence summary",
 			"links": {}
 		},
