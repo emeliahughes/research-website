@@ -47,3 +47,55 @@ body {
     height: 50px;
     overflow: scroll;
 }
+
+[mv-app]:not([mv-mode=edit]) .hide-on-read {
+	display: none;
+}
+
+[property="author"]:not(:first-of-type)::before {
+    content: ", ";
+    vertical-align: text-bottom;
+}
+
+[property="author2"]:not(:first-of-type)::before {
+    content: ", ";
+}
+
+[property="links"] img {
+    display: inline-block;
+	height: 2.5rem;
+	vertical-align: middle;
+	margin-bottom: 0.5em;
+}
+
+[property="links"] span {
+    vertical-align: text-top;
+}
+
+[property="links"] {
+	display: block;
+	margin-top: 10px;
+}
+
+
+[property="website_url"] img {
+    width: 21px;
+    height: 21px;
+}
+
+[property="data_url"] img {
+    width: 21px;
+    height: 21px;
+}
+
+[property="video_url"] img {
+    height: 23px;
+}
+
+[property="code_url"] img {
+    height: 24px;
+}
+
+[property="slides_url"] img {
+    height: 23px;
+}
