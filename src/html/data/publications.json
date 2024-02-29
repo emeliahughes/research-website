@@ -1,0 +1,31 @@
+{
+	"paper": [
+		{
+			"image": "https://cdn.jsdelivr.net/gh/emeliahughes/research-website@ad7560fe6794e59dd4c9666848d1902de5713359/src/html/data/images/NDFS%20headshot%20copy.jpeg",
+			"title": "Viblio",
+			"id": "viblio",
+			"author": [
+				{
+					"author_name": "Emelia Hughes"
+				}
+			],
+			"conference_full_name": "ACM CHI",
+			"conference url": "null",
+			"conference": "CHI",
+			"year": "2024",
+			"award": "Award",
+			"short_abstract": "1-2 sentence summary",
+			"abstract": "Abstract",
+			"bibtex": "Bibtex",
+			"links": {
+				"pdf_url": "null",
+				"website_url": "null",
+				"code_url": "null",
+				"data_url": "null",
+				"slides_url": "null",
+				"video_url": "null",
+				"talk_url": "null"
+			}
+		}
+	]
+}
