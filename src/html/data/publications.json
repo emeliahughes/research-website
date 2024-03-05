@@ -1,12 +1,15 @@
 {
 	"paper": [
 		{
-			"image": "https://cdn.jsdelivr.net/gh/emeliahughes/research-website@333333a05b2b13b2c01c0f6f4c7247c29c83c6d2/src/html/data/images/add-view.png",
+			"image": "https://github.com/emeliahughes/research-website/src/images/images/citation%20box.png",
 			"title": "Viblio",
 			"id": "viblio",
 			"author": [
 				{
 					"author_name": "Emelia Hughes"
+				},
+				{
+					"author_name": "Amy Zhang"
 				}
 			],
 			"conference_full_name": "CHI",
