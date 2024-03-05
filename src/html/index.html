@@ -42,7 +42,7 @@
     
 
     <!-- main body -->
-    <div class="pb-160 isotope text-center row">
+    <div class="pb-160 isotope row">
         <hr class="mt-50 mb-50 my-50">
         <!-- Left Column -->
         <div class="col-8">
@@ -51,118 +51,118 @@
 
             <div  mv-app="publications" mv-permissions="read login edit add delete" mv-plugins="tinymce" mv-storage="https://github.com/emeliahughes/research-website/src/html/data" mv-upload-url="https://github.com/emeliahughes/research-website/src/images/publications">
 
-                    <div class="mv-bar mv-ui"></div>
-          
-                    <article class="row" property="paper" mv-multiple mv-order="desc">
-          
-                      <div class="col-xs-8 col-sm-2 col-md-2 col-lg-2">
+                <div class="mv-bar mv-ui"></div>
+        
+                <article class="row float-left" property="paper" mv-multiple mv-order="desc">
+        
+                    <div class="col-xs-8 col-sm-2 col-md-2 col-lg-2">
                         <img class="alignleft img-responsive center-block" property="image" src="null" alt="img alt" style="border: 1px #737373 solid; margin-top: 6px; max-width:100%">
-                      </div>
-          
-          
-                      <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 pubbody">
-          
+                    </div>
+        
+        
+                    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 pubbody">
                         <B>
-                          <a href="pub_details.html?id=[id]">
-                            <span class="mini-header2" property="title">Paper Title</span>
-                          </a>
-                          </B>
+                            <a href="pub_details.html?id=[id]">
+                                <span class="mini-header2" property="title">Paper Title</span>
+                            </a>
+                        </B>
+
                         <BR>
-          
                         <p class="hide-on-read">
-                          URL id: /publications/<span property="id" mv-default="[idify(title)]"></span>
+                            URL id: /publications/<span property="id" mv-default="[idify(title)]"></span>
                         </p>
-          
+        
                         <span property="author" mv-multiple>
                             <meta property="authorData" mv-value="get(people.member, 'id=' & author_name)" />
                             <img src="[authorData.image]" alt="" mv-if="authorData != ''">
-                            <span property="author_name" mv-edit-list="memberList">Author Name</span></span>
+                            <span property="author_name" mv-edit-list="memberList">Author Name</span>
+                        </span>
                         <BR>
-          
-                          <span class="hide-on-read" property="conference_full_name">Full Conference Name</span>
-          
-                          <a href="null" property="conference url">
+        
+                        <span class="hide-on-read" property="conference_full_name">Full Conference Name</span>
+        
+                        <a href="null" property="conference url">
                             <span property="conference">Conference</span>
                             <span property="year">Year</span>
-                          </a>
-          
-                          <span class="btn btn-xs btn-warning [if(!award, 'hide-on-read')]" style="padding-top:2px;"><img src="img/trophy-24.png" style="margin-bottom: 0px;width: 22px; height:22px;"> <span property="award">Award</span></span>
-          
-          
-          
-                          <BR>
-                          <div property="short_abstract" class="tinymce" mv-default="1-2 sentence summary">1-2 sentence summary</div>
-          
-                          <div class="hide-on-read" property="abstract" class="tinymce">Abstract</div>
-          
-                          <div class="hide-on-read"  property="bibtex" class="tinymce">Bibtex</div>
-          
-          
+                        </a>
+        
+                        <span class="btn btn-xs btn-warning [if(!award, 'hide-on-read')]" style="padding-top:2px;"><img src="assets/images/icons/award.png" style="margin-bottom: 0px;width: 22px; height:22px;"> <span property="award">Award</span></span>
+        
+                        <BR>
+                        <div property="short_abstract" class="tinymce" mv-default="1-2 sentence summary">1-2 sentence summary</div>
+        
+                        <div class="hide-on-read" property="abstract" class="tinymce">Abstract</div>
+        
+                        <div class="hide-on-read"  property="bibtex" class="tinymce">Bibtex</div>
+        
+        
                         <span property="links">
-                          <a href="null" property="pdf_url" class="button">
-                            <img src="icons/pdf.png"><span>PDF</span>
-                          </a>
-          
-                          <a href="null" property="website_url" class="button">
-                            <img src="icons/link.png"><span> Website</span>
-                          </a>
-          
-                          <a href="null" property="code_url" class="button">
-                            <img src="icons/code.png"><span> Code</span>
-                          </a>
-          
-                          <a href="null" property="data_url" class="button">
-                            <img src="icons/database.png"><span> Data</span>
-                          </a>
-          
-                          <a href="null" property="slides_url" class="button">
-                            <img src="icons/slides.png"><span>Slides</span>
-                          </a>
-          
-                          <a href="null" property="video_url" class="button">
-                            <img src="icons/video.png"><span> Video</span>
-                          </a>
-          
-                          <a href="null" property="talk_url" class="button">
-                            <img src="icons/video.png"><span> Talk</span>
-                          </a>
-                          <BR><BR>
+                            <a href="null" property="pdf_url" class="button">
+                                <img src="assets/images/icons/pdf.png"><span>PDF</span>
+                            </a>
+            
+                            <a href="null" property="website_url" class="button">
+                                <img src="assets/images/icons/link.png"><span class="mb-8"> Website</span>
+                            </a>
+            
+                            <a href="null" property="code_url" class="button">
+                                <img src="assets/images/icons/code.png"><span> Code</span>
+                            </a>
+            
+                            <a href="null" property="data_url" class="button">
+                                <img src="assets/images/icons/database.png"><span> Data</span>
+                            </a>
+            
+                            <a href="null" property="slides_url" class="button">
+                                <img src="assets/images/icons/slides.png"><span>Slides</span>
+                            </a>
+            
+                            <a href="null" property="video_url" class="button">
+                                <img src="assets/images/icons/video.png"><span> Video</span>
+                            </a>
+            
+                            <a href="null" property="talk_url" class="button">
+                                <img src="assets/images/icons/video.png"><span> Talk</span>
+                            </a>
+                            <BR><BR>
                         </span>
-                      </article>
                     </div>
-              </div>
+                </article>
+            </div>
 
             <!-- Projects -->
-            <h2 class="h3 text-center mt-80 pb-30 mb-10" style="color: #a32121">Selected Work</h2>
-    
-            <div class="pt-30">
-                {% macro portfolio_grid(name="", filter="", href="#") %}
-                <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" data-filters="{{ filter }}">
-                    <a href="{{ href }}" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="{{ portfolio[name].cursor }}" data-show-delay="50" data-show-distance="5" data-show-duration="500">
-                        <img class="mw-100" src="{{ portfolio[name].image.sm }}" alt="">
-                        <h5 class="text-decoration-none m-10 text-center">{{ portfolio[name].title }}</h5>
-                    </a>
-                </div>
-                {% endmacro %}
+            <div class="index-projects">
+                <h2 class="h3 text-center mt-80 pb-30 mb-10" style="color: #a32121">Selected Work</h2>
         
-                {% macro portfolio_grid_vertical(name="", filter="", href="#") %}
-                <div class="col-12 col-sm-6 col-lg-4 isotope-item" data-filters="{{ filter }}">
-                    <a href="{{ href }}" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="{{ portfolio[name].cursor }}" data-show-delay="50" data-show-distance="5" data-show-duration="500">
-                        <img class="mw-100" src="{{ portfolio[name].image.sm_vertical }}" alt="">
-                        <h5 class="text-decoration-none m-10 text-center">{{ portfolio[name].title }}</h5>
-                    </a>
+                <div class="pt-30">
+                    {% macro portfolio_grid(name="", filter="", href="#") %}
+                    <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" data-filters="{{ filter }}">
+                        <a href="{{ href }}" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="{{ portfolio[name].cursor }}" data-show-delay="50" data-show-distance="5" data-show-duration="500">
+                            <img class="mw-100" src="{{ portfolio[name].image.sm }}" alt="">
+                            <h5 class="text-decoration-none m-10 text-center">{{ portfolio[name].title }}</h5>
+                        </a>
+                    </div>
+                    {% endmacro %}
+            
+                    {% macro portfolio_grid_vertical(name="", filter="", href="#") %}
+                    <div class="col-12 col-sm-6 col-lg-4 isotope-item" data-filters="{{ filter }}">
+                        <a href="{{ href }}" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="{{ portfolio[name].cursor }}" data-show-delay="50" data-show-distance="5" data-show-duration="500">
+                            <img class="mw-100" src="{{ portfolio[name].image.sm_vertical }}" alt="">
+                            <h5 class="text-decoration-none m-10 text-center">{{ portfolio[name].title }}</h5>
+                        </a>
+                    </div>
+                    {% endmacro %}
+                    
+                    <div class="row align-items-end gh-1 gv-1 isotope-grid">
+                        {{ portfolio_grid('viblio-project', 'research', 'viblio-project.html') }}
+                        {{ portfolio_grid('adobe-project', 'research', 'adobe-project.html') }}
+                        {{ portfolio_grid('qanon-project', 'research', 'qanon-project.html') }}
+                        {{ portfolio_grid('art-thesis-project', 'design', 'art-thesis-project.html') }}
+                        {{ portfolio_grid('robot-project', 'design', 'robot-project.html') }}
+                    </div>
+        
+                    <a href="projects.html" class="btn btn-circle btn-light btn-lg mt-100">more</a>
                 </div>
-                {% endmacro %}
-                
-                <div class="row align-items-end gh-1 gv-1 isotope-grid">
-                    {{ portfolio_grid('viblio-project', 'research', 'viblio-project.html') }}
-                    {{ portfolio_grid('adobe-project', 'research', 'adobe-project.html') }}
-                    {{ portfolio_grid('qanon-project', 'research', 'qanon-project.html') }}
-                    {{ portfolio_grid('art-thesis-project', 'design', 'art-thesis-project.html') }}
-                    {{ portfolio_grid('robot-project', 'design', 'robot-project.html') }}
-                </div>
-    
-                <a href="projects.html" class="btn btn-circle btn-light btn-lg mt-100">more</a>
             </div>
         </div>
 

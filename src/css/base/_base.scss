@@ -65,7 +65,6 @@ body {
     display: inline-block;
 	height: 2.5rem;
 	vertical-align: middle;
-	margin-bottom: 0.5em;
 }
 
 [property="links"] span {
@@ -75,12 +74,14 @@ body {
 [property="links"] {
 	display: block;
 	margin-top: 10px;
+    text-decoration: none;
 }
 
 
 [property="website_url"] img {
     width: 21px;
     height: 21px;
+    text-decoration: none;
 }
 
 [property="data_url"] img {

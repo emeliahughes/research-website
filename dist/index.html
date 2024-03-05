@@ -211,7 +211,7 @@
                     </div>
                 </div>
                 <!-- main body -->
-                <div class="pb-160 isotope text-center row">
+                <div class="pb-160 isotope row">
                     <hr class="mt-50 mb-50 my-50">
                     <!-- Left Column -->
                     <div class="col-8">
@@ -219,7 +219,7 @@
                         <h2 class="h3 text-center mt-80 pb-30 mb-10" style="color: #a32121">Publications</h2>
                         <div mv-app="publications" mv-permissions="read login edit add delete" mv-plugins="tinymce" mv-storage="https://github.com/emeliahughes/research-website/src/html/data" mv-upload-url="https://github.com/emeliahughes/research-website/src/images/publications">
                             <div class="mv-bar mv-ui"></div>
-                            <article class="row" property="paper" mv-multiple mv-order="desc">
+                            <article class="row float-left" property="paper" mv-multiple mv-order="desc">
                                 <div class="col-xs-8 col-sm-2 col-md-2 col-lg-2">
                                     <img class="alignleft img-responsive center-block" property="image" src="null" alt="img alt" style="border: 1px #737373 solid; margin-top: 6px; max-width:100%">
                                 </div>
@@ -243,97 +243,99 @@
                                         <span property="conference">Conference</span>
                                         <span property="year">Year</span>
                                     </a>
-                                    <span class="btn btn-xs btn-warning [if(!award, 'hide-on-read')]" style="padding-top:2px;"><img src="img/trophy-24.png" style="margin-bottom: 0px;width: 22px; height:22px;"> <span property="award">Award</span></span>
+                                    <span class="btn btn-xs btn-warning [if(!award, 'hide-on-read')]" style="padding-top:2px;"><img src="assets/images/icons/award.png" style="margin-bottom: 0px;width: 22px; height:22px;"> <span property="award">Award</span></span>
                                     <BR>
                                     <div property="short_abstract" class="tinymce" mv-default="1-2 sentence summary">1-2 sentence summary</div>
                                     <div class="hide-on-read" property="abstract" class="tinymce">Abstract</div>
                                     <div class="hide-on-read" property="bibtex" class="tinymce">Bibtex</div>
                                     <span property="links">
                                         <a href="null" property="pdf_url" class="button">
-                                            <img src="icons/pdf.png"><span>PDF</span>
+                                            <img src="assets/images/icons/pdf.png"><span>PDF</span>
                                         </a>
                                         <a href="null" property="website_url" class="button">
-                                            <img src="icons/link.png"><span> Website</span>
+                                            <img src="assets/images/icons/link.png"><span class="mb-8"> Website</span>
                                         </a>
                                         <a href="null" property="code_url" class="button">
-                                            <img src="icons/code.png"><span> Code</span>
+                                            <img src="assets/images/icons/code.png"><span> Code</span>
                                         </a>
                                         <a href="null" property="data_url" class="button">
-                                            <img src="icons/database.png"><span> Data</span>
+                                            <img src="assets/images/icons/database.png"><span> Data</span>
                                         </a>
                                         <a href="null" property="slides_url" class="button">
-                                            <img src="icons/slides.png"><span>Slides</span>
+                                            <img src="assets/images/icons/slides.png"><span>Slides</span>
                                         </a>
                                         <a href="null" property="video_url" class="button">
-                                            <img src="icons/video.png"><span> Video</span>
+                                            <img src="assets/images/icons/video.png"><span> Video</span>
                                         </a>
                                         <a href="null" property="talk_url" class="button">
-                                            <img src="icons/video.png"><span> Talk</span>
+                                            <img src="assets/images/icons/video.png"><span> Talk</span>
                                         </a>
                                         <BR><BR>
                                     </span>
+                                </div>
                             </article>
                         </div>
-                    </div>
-                    <!-- Projects -->
-                    <h2 class="h3 text-center mt-80 pb-30 mb-10" style="color: #a32121">Selected Work</h2>
-                    <div class="pt-30">
-                        <div class="row align-items-end gh-1 gv-1 isotope-grid">
-                            <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" data-filters="research">
-                                <a href="viblio-project.html" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="Social Futures Lab" data-show-delay="50" data-show-distance="5" data-show-duration="500">
-                                    <img class="mw-100" src="assets/images/portfolio/viblio-photos/cover.png" alt="">
-                                    <h5 class="text-decoration-none m-10 text-center">Viblio - YouTube Citations Project</h5>
-                                </a>
-                            </div>
-                            <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" data-filters="research">
-                                <a href="adobe-project.html" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="Adobe Research" data-show-delay="50" data-show-distance="5" data-show-duration="500">
-                                    <img class="mw-100" src="assets/images/portfolio/adobe/adobe-cover.png" alt="">
-                                    <h5 class="text-decoration-none m-10 text-center">Multimodal Canvas Landmarks for Accessible Digital Painting</h5>
-                                </a>
-                            </div>
-                            <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" data-filters="research">
-                                <a href="qanon-project.html" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="Center for An Informed Public" data-show-delay="50" data-show-distance="5" data-show-duration="500">
-                                    <img class="mw-100" src="assets/images/portfolio/qanon-photos/stc-cover.png" alt="">
-                                    <h5 class="text-decoration-none m-10 text-center">#SaveTheChildren - QAnon on Instagram</h5>
-                                </a>
-                            </div>
-                            <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" data-filters="design">
-                                <a href="art-thesis-project.html" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="Painting" data-show-delay="50" data-show-distance="5" data-show-duration="500">
-                                    <img class="mw-100" src="assets/images/art/living-room-painting.jpg" alt="">
-                                    <h5 class="text-decoration-none m-10 text-center">Honors Art Thesis</h5>
-                                </a>
-                            </div>
-                            <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" data-filters="design">
-                                <a href="robot-project.html" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="ARUW" data-show-delay="50" data-show-distance="5" data-show-duration="500">
-                                    <img class="mw-100" src="assets/images/portfolio/robotics/gold-standard.jpg" alt="">
-                                    <h5 class="text-decoration-none m-10 text-center">Advanced Robotics at UW</h5>
-                                </a>
-                            </div>
-                        </div>
-                        <a href="projects.html" class="btn btn-circle btn-light btn-lg mt-100">more</a>
-                    </div>
-                </div>
-                <!-- right column -->
-                <div class="col-4">
-                    <!-- news -->
-                    <h2 class="h3 text-center mt-80 pb-30 mb-10" style="color: #a32121">News</h2>
-                    <div mv-app="news" mv-bar="none" mv-storage="https://github.com/emeliahughes/research-website/src/html/data">
-                        <ul mv-list>
-                            <span property="news-item" mv-list-item>
-                                <div class="card">
-                                    <div class="card-body p-20 text-start d-flex flex-column justify-content-center">
-                                        <h5><span class="card-date inline text-em" property="date"></span>: <span class="card-title inline" property="title"></span></h5>
-                                        <p class="mb-0"><span class="card-text m-0" property="text"></span>
-                                            <span class="btn p-10 text-center" href="[href]">&rightarrow;</span>
-                                        </p>
+                        <!-- Projects -->
+                        <div class="index-projects">
+                            <h2 class="h3 text-center mt-80 pb-30 mb-10" style="color: #a32121">Selected Work</h2>
+                            <div class="pt-30">
+                                <div class="row align-items-end gh-1 gv-1 isotope-grid">
+                                    <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" data-filters="research">
+                                        <a href="viblio-project.html" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="Social Futures Lab" data-show-delay="50" data-show-distance="5" data-show-duration="500">
+                                            <img class="mw-100" src="assets/images/portfolio/viblio-photos/cover.png" alt="">
+                                            <h5 class="text-decoration-none m-10 text-center">Viblio - YouTube Citations Project</h5>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" data-filters="research">
+                                        <a href="adobe-project.html" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="Adobe Research" data-show-delay="50" data-show-distance="5" data-show-duration="500">
+                                            <img class="mw-100" src="assets/images/portfolio/adobe/adobe-cover.png" alt="">
+                                            <h5 class="text-decoration-none m-10 text-center">Multimodal Canvas Landmarks for Accessible Digital Painting</h5>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" data-filters="research">
+                                        <a href="qanon-project.html" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="Center for An Informed Public" data-show-delay="50" data-show-distance="5" data-show-duration="500">
+                                            <img class="mw-100" src="assets/images/portfolio/qanon-photos/stc-cover.png" alt="">
+                                            <h5 class="text-decoration-none m-10 text-center">#SaveTheChildren - QAnon on Instagram</h5>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" data-filters="design">
+                                        <a href="art-thesis-project.html" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="Painting" data-show-delay="50" data-show-distance="5" data-show-duration="500">
+                                            <img class="mw-100" src="assets/images/art/living-room-painting.jpg" alt="">
+                                            <h5 class="text-decoration-none m-10 text-center">Honors Art Thesis</h5>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" data-filters="design">
+                                        <a href="robot-project.html" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="ARUW" data-show-delay="50" data-show-distance="5" data-show-duration="500">
+                                            <img class="mw-100" src="assets/images/portfolio/robotics/gold-standard.jpg" alt="">
+                                            <h5 class="text-decoration-none m-10 text-center">Advanced Robotics at UW</h5>
+                                        </a>
                                     </div>
                                 </div>
-                            </span>
-                        </ul>
+                                <a href="projects.html" class="btn btn-circle btn-light btn-lg mt-100">more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right column -->
+                    <div class="col-4">
+                        <!-- news -->
+                        <h2 class="h3 text-center mt-80 pb-30 mb-10" style="color: #a32121">News</h2>
+                        <div mv-app="news" mv-bar="none" mv-storage="https://github.com/emeliahughes/research-website/src/html/data">
+                            <ul mv-list>
+                                <span property="news-item" mv-list-item>
+                                    <div class="card">
+                                        <div class="card-body p-20 text-start d-flex flex-column justify-content-center">
+                                            <h5><span class="card-date inline text-em" property="date"></span>: <span class="card-title inline" property="title"></span></h5>
+                                            <p class="mb-0"><span class="card-text m-0" property="text"></span>
+                                                <span class="btn p-10 text-center" href="[href]">&rightarrow;</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </span>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
         <footer class="footer bg-dark text-white shape-parent overflow-hidden text-center pt-160 pb-60">
             <div class="shape align-items-end justify-content-center">
