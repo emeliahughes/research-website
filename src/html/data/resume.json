@@ -1,16 +1,6 @@
 {
 	"resume-category": [
 		{
-			"category": "Work Experience",
-			"category-item": [
-				{
-					"item-heading": "Social Futures Lab",
-					"item-role": "Research Assistant",
-					"item-description": []
-				}
-			]
-		},
-		{
 			"category": "Education",
 			"category-item": [
 				{
@@ -33,6 +23,16 @@
 						"2021-2022 Priscilla and Melvin Wilson Scholarship"
 					],
 					"date": "Aug 2018 - Jun 2022"
+				}
+			]
+		},
+		{
+			"category": "Work Experience",
+			"category-item": [
+				{
+					"item-heading": "Social Futures Lab",
+					"item-role": "Research Assistant",
+					"item-description": []
 				}
 			]
 		}
