@@ -1,10 +1,31 @@
 {
 	"resume-category": [
 		{
+			"category": "Work Experience",
+			"category-item": [
+				{
+					"item-heading": "Social Futures Lab",
+					"item-role": "Research Assistant",
+					"item-description": []
+				}
+			]
+		},
+		{
 			"category": "Education",
 			"category-item": [
 				{
+					"item-heading": "University of Notre Dame",
+					"item-role": "Ph.D. Student",
+					"item-description": [
+						"Ph.D. Student in the Department of Computer Science and Engineering",
+						"Advisor: Dr. Tim Weninger",
+						"Remick Fellow"
+					],
+					"date": "Aug 2024"
+				},
+				{
 					"item-heading": "University of Washington",
+					"item-role": "Bachelor of Science, Bachelor of Arts",
 					"item-description": [
 						"Bachelor of Science in Informatics, Human-Computer Interaction",
 						"Bachelor of Arts in Art with Honors, Drawing and Painting",
