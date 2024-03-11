@@ -1,0 +1,19 @@
+{
+	"resume-category": [
+		{
+			"category": "Education",
+			"category-item": [
+				{
+					"item-heading": "University of Washington",
+					"item-description": [
+						"Bachelor of Science in Informatics, Human-Computer Interaction",
+						"Bachelor of Arts in Art with Honors, Drawing and Painting",
+						"GPA: 3.7, Dean's List: 6 quarters",
+						"2021-2022 Priscilla and Melvin Wilson Scholarship"
+					],
+					"date": "Aug 2018 - Jun 2022"
+				}
+			]
+		}
+	]
+}
