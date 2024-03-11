@@ -3,38 +3,43 @@
 		{
 			"category": "Education",
 			"category-item": [
-				{
-					"item-heading": "University of Notre Dame",
-					"item-role": "Ph.D. Student",
-					"item-description": [
-						"Ph.D. Student in the Department of Computer Science and Engineering",
-						"Advisor: Dr. Tim Weninger",
-						"Remick Fellow"
-					],
-					"date": "Aug 2024",
-					"item-date": "Aug 2023 - present"
-				},
-				{
-					"item-heading": "University of Washington",
-					"item-role": "Bachelor of Science, Bachelor of Arts",
-					"item-description": [
-						"Bachelor of Science in Informatics, Human-Computer Interaction",
-						"Bachelor of Arts in Art with Honors, Drawing and Painting",
-						"GPA: 3.7, Dean's List: 6 quarters",
-						"2021-2022 Priscilla and Melvin Wilson Scholarship"
-					],
-					"date": "Aug 2018 - Jun 2022"
-				}
+				[
+					{
+						"item-heading": "University of Notre Dame",
+						"item-role": "Ph.D. Student",
+						"item-description": [
+							"Ph.D. Student in the Department of Computer Science and Engineering",
+							"Advisor: Dr. Tim Weninger",
+							"Remick Fellow"
+						],
+						"date": "Aug 2024",
+						"item-date": "Aug 2023 - present"
+					}
+				],
+				[],
+				[]
 			]
 		},
 		{
 			"category": "Work Experience",
 			"category-item": [
-				{
-					"item-heading": "Social Futures Lab",
-					"item-role": "Research Assistant",
-					"item-description": []
-				}
+				[
+					{
+						"item-heading": "Social Futures Lab",
+						"item-role": "Research Assistant",
+						"item-description": []
+					}
+				],
+				[
+					{
+						"publication-list": []
+					}
+				],
+				[
+					{
+						"item-description": []
+					}
+				]
 			]
 		}
 	]
