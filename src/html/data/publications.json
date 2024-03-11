@@ -16,8 +16,8 @@
 			"conference url": "https://chi2024.acm.org/",
 			"conference": "CHI",
 			"year": "2024",
-			"short_abstract": "1-2 sentence summary",
-			"abstract": "abstract",
+			"short_abstract": "<p>test summary</p>",
+			"abstract": "test abstract",
 			"bibtex": "bibtex",
 			"links": {
 				"website_url": "emeliahughes.com"
