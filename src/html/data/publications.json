@@ -36,7 +36,7 @@
 				"pdf_url": "https://arxiv.org/pdf/2402.17218.pdf",
 				"video_url": "https://www.youtube.com/watch?v=VNYnKQ-PV74"
 			},
-			"picture": "https://github.com/emeliahughes/research-website/src/html/data/images/Viblio%20Logo.png"
+			"picture": "https://cdn.jsdelivr.net/gh/emeliahughes/research-website@3e9af9a1b44442ba9ce4699515bed603ab624b6e/src/html/data/images/Viblio%20Logo.png"
 		}
 	]
 }
