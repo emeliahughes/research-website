@@ -188,26 +188,26 @@
             <div class="container w-100 mt-10 align-items-center">
                 <hr class="mt-50 mb-50 my-50">
                 <h2 class="h3 text-center mt-80 pb-30 mb-60" style="color: #a32121">What I've been up to</h2>
-                <div mv-app="news" class="mv-autoedit" mv-storage="https://github.com/emeliahughes/research-website/src/html/data" mv-upload="https://github.com/emeliahughes/research-website/src/images/news">
+                <div mv-app="news" class="mv-autoedit" mv-bar='no-login' mv-storage="https://github.com/emeliahughes/research-website/src/html/data">
                     <ul mv-list>
-                        <a class="card card-blog card-horizontal card-md" href="[href]" property="news-item" mv-list-item>
+                        <div class="card card-blog card-horizontal card-md" property="news-item" mv-list-item>
                             <span class="card-img">
-                                <img src="[image]" property="image" alt="">
+                                <img property="image" alt="">
                             </span>
                             <span class="card-body">
                                 <h4 class="card-title" property="title"></h4>
                                 <div class="card-date" property="date"></div>
                                 <p class="card-text" property="text"></p>
                                 <span href="[href]" class="btn btn-sm btn-clean"><span property="button"></span> &rightarrow;</span>
+                        </div>
                 </div>
-                </a>
                 </ul>
             </div>
         </div>
         </div>
         <footer class="footer bg-dark text-white shape-parent overflow-hidden text-center pt-160 pb-60">
             <div class="shape align-items-end justify-content-center">
-                <svg data-rellax-speed="2" width="641" height="371" viewBox="0 0 641 371" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg data-rellax-speed="2" width="641" height="371" viewBox="0 0 641 371" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: translateY(100px)">
                     <circle cx="320.5" cy="320.5" r="320.5" fill="#a32121" />
                 </svg>
             </div>

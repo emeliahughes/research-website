@@ -49,20 +49,20 @@
             <!-- Publications -->
             <h2 class="h3 text-center mt-80 pb-30 mb-10" style="color: #a32121">Publications</h2>
 
-            <div  mv-app="publications" mv-permissions="read login edit add delete" mv-plugins="tinymce" mv-storage="https://github.com/emeliahughes/research-website/src/html/data" mv-upload-url="https://github.com/emeliahughes/research-website/src/images/publications">
+            <div  mv-app="publications" mv-bar='no-login' mv-permissions="read login edit add delete" mv-plugins="tinymce" mv-storage="https://github.com/emeliahughes/research-website/src/html/data">
 
                 <div class="mv-bar mv-ui"></div>
         
                 <article class="row float-left" property="paper" mv-multiple mv-order="desc">
         
                     <div class="col-xs-8 col-sm-2 col-md-2 col-lg-2">
-                        <img class="alignleft img-responsive center-block" property="image" src="null" alt="img alt" style="border: 1px #737373 solid; margin-top: 6px; max-width:100%">
+                        <img class="img-responsive center-block" property="picture" alt="img alt" style="margin-top: 6px; max-width:100%;">
                     </div>
         
         
-                    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 pubbody">
+                    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 pubbody" style="padding-left: 10px;">
                         <B>
-                            <a href="pub_details.html?id=[id]">
+                            <a href="pub-details.html?id=[id]">
                                 <span class="mini-header2" property="title">Paper Title</span>
                             </a>
                         </B>
@@ -72,7 +72,7 @@
                             URL id: /publications/<span property="id" mv-default="[idify(title)]"></span>
                         </p>
         
-                        <span property="author" mv-multiple>
+                        <span property="author" mv-multiple style="font-size: 14px;">
                             <meta property="authorData" mv-value="get(people.member, 'id=' & author_name)" />
                             <img src="[authorData.image]" alt="" mv-if="authorData != ''">
                             <span property="author_name" mv-edit-list="memberList">Author Name</span>
@@ -81,7 +81,7 @@
         
                         <span class="hide-on-read" property="conference_full_name">Full Conference Name</span>
         
-                        <a href="null" property="conference url">
+                        <a href="null" property="conference url" style="font-size: 12px; font-weight: 800;">
                             <span property="conference">Conference</span>
                             <span property="year">Year</span>
                         </a>
@@ -89,11 +89,11 @@
                         <span class="btn btn-xs btn-warning [if(!award, 'hide-on-read')]" style="padding-top:2px;"><img src="assets/images/icons/award.png" style="margin-bottom: 0px;width: 22px; height:22px;"> <span property="award">Award</span></span>
         
                         <BR>
-                        <div property="short_abstract" class="tinymce" mv-default="1-2 sentence summary">1-2 sentence summary</div>
+                        <div property="short_abstract" class="tinymce" style="font-size: 14px;" mv-default="1-2 sentence summary">1-2 sentence summary</div>
         
-                        <div class="hide-on-read" property="abstract" class="tinymce">Abstract</div>
+                        <div class="hide-on-read" property="abstract" style="font-size: 14px;" class="tinymce">Abstract</div>
         
-                        <div class="hide-on-read"  property="bibtex" class="tinymce">Bibtex</div>
+                        <div class="hide-on-read"  property="bibtex" style="font-size: 14px;" class="tinymce">Bibtex</div>
         
         
                         <span property="links">
@@ -133,7 +133,16 @@
             <!-- Projects -->
             <div class="index-projects">
                 <h2 class="h3 text-center mt-80 pb-30 mb-10" style="color: #a32121">Selected Work</h2>
-        
+                
+                <div  mv-app="project-nav" mv-bar='no-login' mv-permissions="read login edit add delete" mv-plugins="tinymce" mv-storage="https://github.com/emeliahughes/research-website/src/html/data">
+                    <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" property="nav-item" mv-multiple mv-order="desc">
+                        <a href="null" property="href" class="d-block show-on-scroll text-decoration-none" data-cursor-style="cursor-text" data-cursor-text="{{ portfolio[name].cursor }}" data-show-delay="50" data-show-distance="5" data-show-duration="500">
+                            <img class="mw-100" property="image" alt="">
+                            <h5 class="text-decoration-none m-10 text-center" property="title" mv-default="Project Title"></h5>
+                        </a>
+                    </div>
+                </div>
+
                 <div class="pt-30">
                     {% macro portfolio_grid(name="", filter="", href="#") %}
                     <div class="col-12 col-sm-6 col-sm-6 col-lg-4 isotope-item" data-filters="{{ filter }}">

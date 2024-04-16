@@ -79,24 +79,79 @@ body {
 
 
 [property="website_url"] img {
-    width: 21px;
-    height: 21px;
+    width: 20px;
+    height: 20px;
     text-decoration: none;
 }
 
 [property="data_url"] img {
-    width: 21px;
-    height: 21px;
+    width: 20px;
+    height: 20px;
 }
 
 [property="video_url"] img {
-    height: 23px;
+    height: 20px;
 }
 
 [property="code_url"] img {
-    height: 24px;
+    height: 20px;
 }
 
 [property="slides_url"] img {
-    height: 23px;
+    height: 20px;
+}
+
+[property="pdf_url"] img {
+    height: 20px;
+}
+
+[property="talk_url"] img {
+    height: 20px;
+}
+
+[property="short-abstract"] > p {
+    padding-bottom: 20px;
+}
+
+//resume css
+[property="resume-category"] {
+    margin-top: 0px;
+}
+
+[property="category"] {
+    color: #a32121;
+    //text-transform: uppercase;
+    font-weight: 600;
+    //font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+[property="category-item"] {
+    padding-top: 20px;
+}
+
+[property="item-heading"] {
+    margin-bottom: 0px;
+}
+
+[property="item-role"] {
+    margin-bottom: 0px;
+    font-style: italic;
+    font-weight: 200;
+
+}
+
+[property="item-date"] {
+    color: #a32121;
+    font-style: italic;
+    text-align: right;
+}
+
+[property="publication-list"] {
+    padding-left: 25px;
+}
+
+[property="citation"] {
+    padding-left: 25px;
 }
