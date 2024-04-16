@@ -4,5 +4,15 @@
 			"href": "null",
 			"title": "test"
 		}
+	],
+	"nav-item": [
+		{
+			"href": "sedfw",
+			"title": "Prosdfject sdfsdfTitle"
+		},
+		{
+			"href": "null",
+			"title": "Project Title"
+		}
 	]
 }
