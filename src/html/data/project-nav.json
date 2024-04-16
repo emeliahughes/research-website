@@ -5,73 +5,56 @@
             "title": "Viblio - YouTube Citations Project",
             "cursor": "Social Futures Lab",
             "category": ["research", "#"],
-            "image": {
-                "sm": "assets/images/portfolio/viblio-photos/cover.png"
-            }
+            "image": "assets/images/portfolio/viblio-photos/cover.png"
         },
         {
             "href": "qanon-project.html",
             "title": "#SaveTheChildren - QAnon on Instagram",
             "cursor": "Center for An Informed Public",
             "category": ["research", "#"],
-            "image": {
-                "sm": "assets/images/portfolio/qanon-photos/stc-cover.png"
-            }
+            "image": "assets/images/portfolio/qanon-photos/stc-cover.png"
         },
         {
             "href": "portfolio-single-style-1.html",
             "title": "Multimodal Canvas Landmarks for Accessible Digital Painting",
             "cursor": "Adobe Research",
             "category": ["research", "#"],
-            "image": {
-                "sm": "assets/images/portfolio/adobe/adobe-cover.png"
-            }
+            "image": "assets/images/portfolio/adobe/adobe-cover.png"
         },
         {
             "href": "portfolio-single-style-1.html",
             "title": "TikTok Literature Collation",
             "cursor": "Center for an Informed Public",
             "category": ["research", "#"],
-            "image": {
-                "sm": "assets/images/portfolio/way-home-photos/way-home-cover-740-540.png"
-            }
+            "image": "assets/images/portfolio/way-home-photos/way-home-cover-740-540.png"
         },
         {
             "href": "portfolio-single-style-1.html",
             "title": "Emergency Pimple Kit",
             "cursor": "Design",
             "category": ["design", "#"],
-            "image": {
-                "sm": "assets/images/portfolio/way-home-cover-740-540.png"
-            }
+            "image": "assets/images/portfolio/way-home-cover-740-540.png"
         },
         {
             "href": "way-home-project.html",
             "title": "The Way Home",
             "cursor": "Design",
             "category": ["design", "#"],
-            "image": {
-                "sm": "assets/images/portfolio/way-home-photos/way-home-cover-740-540.png",
-                "sm_vertical": "assets/images/portfolio/way-home-photos/way-home-cover-740-860.png"
-            }
+            "image": "assets/images/portfolio/way-home-photos/way-home-cover-740-540.png"
         },
         {
             "href": "robot-project.html",
             "title": "Advanced Robotics at UW",
             "cursor": "ARUW",
             "category": ["design", "#"],
-            "image": {
-                "sm": "assets/images/portfolio/robotics/gold-standard.jpg"
-            }
+            "image": "assets/images/portfolio/robotics/gold-standard.jpg"
         },
         {
             "href": "art-thesis-project.html",
             "title": "Honors Art Thesis",
             "cursor": "Painting",
             "category": ["design", "#"],
-            "image": {
-                "sm": "assets/images/art/living-room-painting.jpg"
-            }
+            "image": "assets/images/art/living-room-painting.jpg"
         }
     ]
 }
