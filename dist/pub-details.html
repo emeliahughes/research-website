@@ -185,21 +185,14 @@
             </div>
         </div>
         <div class="content-wrap">
-            <div class="container-fluid">
+            <div class="container-fluid justify-content-center">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 line">
                         <div mv-bar="no-login" mv-app="publications" mv-plugins="tinymce markdown" id="[url('id')]" mv-permissions="read logout delete add edit save" mv-storage="https://github.com/emeliahughes/research-website/src/html/data">
                             <meta property="selectedPub" mv-value="url('id')" />
-                            <article class="row" property="paper" mv-multiple mv-multiple-path="id=[url('id')]">
+                            <article class="row justify-content-center" property="paper" mv-multiple mv-multiple-path="id=[url('id')]">
                                 <div class="col-xs-8 col-sm-3 col-md-3 col-lg-3">
-                                    <img class=" img-responsive center-block" property="image" src="null" alt="img alt" / style="border: 1px #737373 solid; margin-top: 6px; max-width:100%">
-                                    <BR>
-                                    <iframe style="max-width: 100%;" width="375" height="225" src="[video_url]" mv-if="contains(video_url, 'youtube') or contains(video_url, 'vimeo') or contains(video_url, 'video01')" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                    </iframe>
-                                    <BR><BR>
-                                    <iframe style="max-width: 100%;" width="375" height="225" src="[talk_url]" mv-if="contains(talk_url, 'youtube') or contains(talk_url, 'vimeo') or contains(talk_url, 'video01')" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                    </iframe>
-                                    <BR><BR>
+                                    <img class="px-20 img-responsive center-block" property="picture" src="null" alt="img alt" / style="margin-top: 6px; max-width:100%; padding-top: 75px;">
                                 </div>
                                 <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 pubbody" style="margin-left: 10px; padding-top: 75px; padding-bottom: 75px;">
                                     <B><span class="mini-header2" property="title">Paper Title</span></B><BR>

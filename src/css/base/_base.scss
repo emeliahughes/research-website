@@ -113,6 +113,18 @@ body {
     padding-bottom: 20px;
 }
 
+[property="nav-item"] > p {
+    padding-top: 30px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 15px;
+        left: 15px;
+    }
+}
+
 //resume css
 [property="resume-category"] {
     margin-top: 0px;

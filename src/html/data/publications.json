@@ -1,7 +1,6 @@
 {
 	"paper": [
 		{
-			"image": "https://github.com/emeliahughes/research-website/src/images/images/Viblio%20Logo.png",
 			"title": "Viblio: Introducing Credibility Signals and Citations to Video-Sharing Platforms",
 			"id": "viblio-introducing-credibility-signals-and-citations-to-video-sharing-platforms",
 			"author": [
@@ -24,7 +23,7 @@
 					"author_name": "Amy Zhang"
 				}
 			],
-			"conference_full_name": "CHI",
+			"conference_full_name": "ACM Conference on Human Factors in Computing Systems",
 			"conference url": "https://chi2024.acm.org/",
 			"conference": "CHI",
 			"year": "2024",
@@ -32,7 +31,7 @@
 			"abstract": "As more users turn to video-sharing platforms like YouTube as an information source, they may consume misinformation despite their best efforts. In this work, we investigate ways that users can better assess the credibility of videos by first exploring how users currently determine credibility using existing signals on platforms and then by introducing and evaluating new credibility-based signals. We conducted 12 contextual inquiry interviews with YouTube users, determining that participants used a combination of existing signals, such as the channel name, the production quality, and prior knowledge, to evaluate credibility, yet sometimes stumbled in their efforts to do so. We then developed Viblio, a prototype system that enables YouTube users to view and add citations and related information while watching a video based on our participants' needs. From an evaluation with 12 people, all participants found Viblio to be intuitive and useful in the process of evaluating a video's credibility and could see themselves using Viblio in the future.",
 			"bibtex": "bibtex",
 			"links": {
-				"website_url": "emeliahughes.com",
+				"website_url": "https://arxiv.org/abs/2402.17218",
 				"pdf_url": "https://arxiv.org/pdf/2402.17218.pdf",
 				"video_url": "https://www.youtube.com/watch?v=VNYnKQ-PV74"
 			},
