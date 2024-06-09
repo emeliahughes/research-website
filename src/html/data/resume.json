@@ -30,13 +30,41 @@
 			]
 		},
 		{
-			"category": "Work Experience",
+			"category": "Research Experience",
 			"category-item": [
 				[
 					{
 						"item-heading": "Social Futures Lab",
 						"item-role": "Research Assistant",
-						"item-description": []
+						"item-description": [
+							"Advisor: Dr. Amy Zhang",
+							"Led project funded by WikiCred to develop novel methods of combating misinformation on YouTube",
+							"Conducted contextual-inquiry interviews to evaluate current user wants and needs surrounding credibility",
+							"Developed YouTube extension from design to implementation, employing Adobe XD and React JS"
+						],
+						"item-date": "Aug 2020 - Sep 2023"
+					},
+					{
+						"item-heading": "Center for an Informed Public",
+						"item-role": "Undergraduate Researcher",
+						"item-description": [
+							"Advisor: Dr. Rachel Moran",
+							"Collaborated with cross-disciplinary researchers on a project analyzing the #SaveTheChildren hashtag and movement on Instagram in relation to QAnon",
+							"Developed qualitative code-book to analyze over 2,000 applicable social media posts"
+						],
+						"item-date": "Jan 2021 - Jun 2022"
+					},
+					{
+						"item-heading": "Adobe",
+						"item-role": "Research Intern",
+						"item-description": [
+							"Advisor: Dr. Jose Echevarria",
+							"Developed user experience for artists with visual impairments to navigate canvas-based applications",
+							"Conducted background research to use current working methods to design novel accessibility tool",
+							"Conveyed key findings and results to a wide audience of company stakeholders",
+							"Implemented iPad prototype using Swift"
+						],
+						"item-date": "Jun 2021 - Sep 2021"
 					}
 				],
 				[],
@@ -76,6 +104,91 @@
 					}
 				],
 				[]
+			]
+		},
+		{
+			"category": "Awards",
+			"category-item": [
+				[],
+				[],
+				[
+					{
+						"date-list": "2022",
+						"item-description": [
+							"RoboMaster North American Champions (3v3)",
+							"RoboMaster North American Champions (1v1)",
+							"Women United Art Prize 2022, Shortlisted Artist",
+							"Priscilla and Melvin Wilson Scholarship, University of Washington School of Art (merit)",
+							"Winter 2022 Dean’s List, University of Washington",
+							"Autumn 2021 Dean’s List, University of Washington"
+						]
+					},
+					{
+						"date-list": "2021",
+						"item-description": [
+							"RoboMaster North American Champions (3v3)",
+							"Adobe Women In Technology 2021 Finalist",
+							"2x Husky 100 nominee, University of Washington",
+							"Autumn 2020 Dean’s List, University of Washington",
+							"Summer 2020 Dean’s List, University of Washington"
+						]
+					},
+					{
+						"date-list": "2020",
+						"item-description": [
+							"Annual Dean’s List 2019-2020, University of Washington",
+							"RoboMaster 2020, Second Prize - Open Source Award"
+						]
+					}
+				]
+			]
+		},
+		{
+			"category": "Public Outreach and DEI",
+			"category-item": [
+				[],
+				[],
+				[
+					{
+						"date-list": "2022",
+						"item-description": [
+							"Volunteer with ARUW, Admitted Student Preview, University of Washington",
+							"Speaker and Volunteer with ARUW, Mechanical Engineering Orientation, University of",
+							"Speaker and Volunteer with ARUW, Electrical Engineering Orientation, University of",
+							"Volunteer with ARUW, School of Engineering Kick-off, University of Washington",
+							"Event Organizer for ARUW, Dawg Daze 2021, University of Washington"
+						]
+					},
+					{
+						"date-list": "2021",
+						"item-description": [
+							"Student Volunteer, CHI 2021",
+							"Invited Speaker, Humboldt State University Robotics Camp",
+							"Tour guide for local elementary school students around ARUW lab space",
+							"Volunteer with ARUW, School of Engineering Kick-off, University of Washington",
+							"Event Organizer for ARUW, Dawg Daze 2020, University of Washington"
+						]
+					},
+					{
+						"date-list": "2020",
+						"item-description": [
+							"Volunteer with ARUW, School of Engineering Kick-off, University of Washington",
+							"Speaker and Volunteer with ARUW, Mechanical Engineering Orientation, University of",
+							"Speaker and Volunteer with ARUW, Electrical Engineering Orientation, University of",
+							"Volunteer with ARUW, School of Engineering Kick-off, University of Washington",
+							"Event Organizer for ARUW, Dawg Daze 2019, University of Washington"
+						]
+					},
+					{
+						"date-list": "2019",
+						"item-description": [
+							"Volunteer with ARUW, Giving Day, University of Washington",
+							"Volunteer with ARUW, Engineering Discovery Days, University of Washington",
+							"Volunteer with ARUW, Sammamish High School STEM Fair",
+							"Volunteer English Streaming Host, RoboMaster 2019"
+						]
+					}
+				]
 			]
 		}
 	]
