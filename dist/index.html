@@ -48,11 +48,6 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="projects.html" class="nav-link">
-                            <span class="nav-link-name">projects</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a href="art-portfolio.html" class="nav-link">
                             <span class="nav-link-name">painting</span>
                         </a>
@@ -123,11 +118,6 @@
                         <li class="nav-item">
                             <a href="news.html" class="nav-link">
                                 <span class="nav-link-name">news</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="projects.html" class="nav-link">
-                                <span class="nav-link-name">projects</span>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -299,11 +289,11 @@
                                             <h5 class="text-decoration-none m-10 text-center" property="title" mv-default="Project Title"></h5>
                                         </a>
                                     </div>
-                                    <div class="w-100 align-items-center mt-60 justify-content-center container d-flex">
-                                        <div class="col"></div>
-                                        <a href="projects.html" class="col-2 btn btn-circle btn-light btn-lg">more</a>
-                                        <div class="col"></div>
-                                    </div>
+                                    <!-- <div class="w-100 align-items-center mt-60 justify-content-center container d-flex">
+                            <div class="col"></div>
+                            <a href="projects.html" class="col-2 btn btn-circle btn-light btn-lg">more</a>
+                            <div class="col"></div>
+                        </div> -->
                                 </div>
                             </div>
                         </div>
@@ -314,7 +304,7 @@
                         <h2 class="h3 text-center mt-80 pb-30 mb-10" style="color: #a32121">Recently</h2>
                         <div mv-app="news" mv-bar="none" mv-storage="https://github.com/emeliahughes/research-website/src/html/data">
                             <ul mv-list>
-                                <span property="news-item" mv-list-item mv-order="asc">
+                                <span property="news-item" mv-list-item mv-order="asc" mv-if="$index < 5">
                                     <div class="card">
                                         <div class="card-body px-20 pb-40 pt-0 text-start d-flex flex-column justify-content-center">
                                             <h5><span class="card-date inline text-em" property="date"></span>: <span class="card-title inline" property="title"></span></h5>
